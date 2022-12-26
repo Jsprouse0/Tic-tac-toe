@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Tic_tac_toe</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assets\**" />
+    <Compile Remove="NewFolder\**" />
+    <Compile Remove="X_Assets\**" />
+    <EmbeddedResource Remove="Assets\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <EmbeddedResource Remove="X_Assets\**" />
+    <None Remove="Assets\**" />
+    <None Remove="NewFolder\**" />
+    <None Remove="X_Assets\**" />
+    <Page Remove="Assets\**" />
+    <Page Remove="NewFolder\**" />
+    <Page Remove="X_Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Asset\Grid.png" />
+    <None Remove="Asset\Icon.ico" />
+    <None Remove="Asset\O0.png" />
+    <None Remove="Asset\O1.png" />
+    <None Remove="Asset\O10.png" />
+    <None Remove="Asset\O11.png" />
+    <None Remove="Asset\O12.png" />
+    <None Remove="Asset\O13.png" />
+    <None Remove="Asset\O14.png" />
+    <None Remove="Asset\O15.png" />
+    <None Remove="Asset\O2.png" />
+    <None Remove="Asset\O3.png" />
+    <None Remove="Asset\O4.png" />
+    <None Remove="Asset\O5.png" />
+    <None Remove="Asset\O6.png" />
+    <None Remove="Asset\O7.png" />
+    <None Remove="Asset\O8.png" />
+    <None Remove="Asset\O9.png" />
+    <None Remove="Asset\X0.png" />
+    <None Remove="Asset\X1.png" />
+    <None Remove="Asset\X10.png" />
+    <None Remove="Asset\X11.png" />
+    <None Remove="Asset\X12.png" />
+    <None Remove="Asset\X13.png" />
+    <None Remove="Asset\X14.png" />
+    <None Remove="Asset\X15.png" />
+    <None Remove="Asset\X2.png" />
+    <None Remove="Asset\X3.png" />
+    <None Remove="Asset\X4.png" />
+    <None Remove="Asset\X5.png" />
+    <None Remove="Asset\X6.png" />
+    <None Remove="Asset\X7.png" />
+    <None Remove="Asset\X8.png" />
+    <None Remove="Asset\X9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Asset\Grid.png" />
+    <Resource Include="Asset\Icon.ico" />
+    <Resource Include="Asset\O0.png" />
+    <Resource Include="Asset\O1.png" />
+    <Resource Include="Asset\O10.png" />
+    <Resource Include="Asset\O11.png" />
+    <Resource Include="Asset\O12.png" />
+    <Resource Include="Asset\O13.png" />
+    <Resource Include="Asset\O14.png" />
+    <Resource Include="Asset\O15.png" />
+    <Resource Include="Asset\O2.png" />
+    <Resource Include="Asset\O3.png" />
+    <Resource Include="Asset\O4.png" />
+    <Resource Include="Asset\O5.png" />
+    <Resource Include="Asset\O6.png" />
+    <Resource Include="Asset\O7.png" />
+    <Resource Include="Asset\O8.png" />
+    <Resource Include="Asset\O9.png" />
+    <Resource Include="Asset\X0.png" />
+    <Resource Include="Asset\X1.png" />
+    <Resource Include="Asset\X10.png" />
+    <Resource Include="Asset\X11.png" />
+    <Resource Include="Asset\X12.png" />
+    <Resource Include="Asset\X13.png" />
+    <Resource Include="Asset\X14.png" />
+    <Resource Include="Asset\X15.png" />
+    <Resource Include="Asset\X2.png" />
+    <Resource Include="Asset\X3.png" />
+    <Resource Include="Asset\X4.png" />
+    <Resource Include="Asset\X5.png" />
+    <Resource Include="Asset\X6.png" />
+    <Resource Include="Asset\X7.png" />
+    <Resource Include="Asset\X8.png" />
+    <Resource Include="Asset\X9.png" />
+  </ItemGroup>
+
+</Project>
